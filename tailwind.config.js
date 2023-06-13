@@ -12,7 +12,16 @@ module.exports = {
                 'gradient-conic':
                     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
             },
+            colors: {
+                'ganache': '#3fe0c5',
+                'truffle': '#ff6b4a'
+            },
+
+        },
+        fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
         },
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/aspect-ratio'),],
 }
